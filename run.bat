@@ -1,4 +1,1 @@
-pytest -s -v -m "sanity" testCases/ --browser firefox
-
-
-pause
+pytest -v -s -m "sanity or regression" testCases/ --browser chrome

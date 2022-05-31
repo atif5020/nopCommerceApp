@@ -97,7 +97,20 @@
                     # git config --global user.email "aatifray5020@gmail.com"
             # 4. to check file status (commited/not commit)
                     # git status
-            # 5. add files to staging area before commiting to git
+            # 5. add files to staging area (memory) before commiting to git
                     # git add -A
-            # 6.
+            # 6. Commit the code to local repository from staging area
+                    # git commit -m "this is my first commit"
+            # 7. push the code from git to github repository
+                    # git push -u origin master
+            # 8. pull newly added/all files from github which you do not have
+                    #git pull
+            # 9. to upload any update to github
+               # follow same process from begining to end which we done already
+                        # git add -A
+                        # git commit -m "this is updated commit"
+                        # git push -u origin master
+
+
+
 
